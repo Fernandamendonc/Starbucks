@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+html,body{
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+header{
+  height: 200px;
+  padding: 20px 0;
+}
+
+.logo{
+  width: 50%;
+}
+
+.menu{
+  padding-top: 30px;
+  width: 50%;
+  text-align: right;
+}
+
+.menu a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+a:hover{
+  color: #017143;
+}
+
+.section.about{
+  height: calc(100% - 200px);
+  position: relative;
+}
+
+.extras{
+  position: absolute;
+  bottom: -450px;
+  right: -450px;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: #017143;
+}
+
+.extras img{
+  transition: 0.5s;
+}
+
+.extras img:hover{
+  transform: scale(1.1);
+}
+
+.midia{
+  position: relative;
+}
+
+.midia{
+  position: absolute;
+  right: 30px;
+  top: 250px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.icons img {
+  height: 30px;
+  width: 30px;
+}
+
+.face{
+  height: 50px;
+}
+
+.texto-sobre{
+  margin-top: 100px;
+}
+
+.texto-sobre h1{
+  font-size: 50px;
+}
+
+.texto-sobre p{
+  margin: 20px 0;
+  color: black;
+  font-size: 14px;
+  max-width: 500px;
+  font-weight: lighter;
+}
+
+button{
+  border: 3px solid #017143;
+  color: #017143;
+  border-radius: 5px;
+  background-position: 0%;
+  background-size: 200%;
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover{
+  color: white;
+  transform: scale(1.1);
+  background-color: #017143;
+  background-position: 100%;
+}
+
+.sorvetes{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 30px;
+}
+
+.menta{
+  transition: 0.5s;
+}
+
+.menta:hover{
+  transform: scale(1.5);
+}
+
+.morango{
+  transition: 0.5s;
+}
+
+.morango:hover{
+  transform: scale(1.5);
+}
+
+.azul{
+  transition: 0.5s;
+}
+
+.azul:hover{
+  transform: scale(1.5);
+}
